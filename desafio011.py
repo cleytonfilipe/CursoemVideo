@@ -1,0 +1,5 @@
+print('Desafio 011 - Python - Curso em Video')
+print('Área de Tinta')
+l = float(input('Qual a largura da parede em metros? '))
+a = float(input('Qual a altura da parede em metros? '))
+print('A parede tem {}m² e serão necessários {} litros de tinta!'.format(l*a, (l*a)/2))

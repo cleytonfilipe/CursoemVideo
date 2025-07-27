@@ -1,0 +1,6 @@
+print('Desafio 007 - Python - Curso em Video')
+print('Média das notas dos alunos')
+a1 = input('Qual o nome do aluno? ')
+n1 = float(input('Qual a primeira nota de {}? '.format(a1)))
+n2 = float(input('Qual a segunda nota de {}? '.format(a1)))
+print('A média das notas de {} é {}!'.format(a1, (n1 + n2)/2))
