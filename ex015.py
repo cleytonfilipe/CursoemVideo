@@ -1,0 +1,6 @@
+print('Exercício 015 - Python - Curso em Video')
+print('Aluguel de Carros')
+d = int(input('Quantos dias o carro ficou alugado? '))
+km = float(input('Quantos Km foram percorridos? '))
+pf = (d * 60) + (km * 0.15)
+print('O valor total do aluguel é R${:.2f}'.format(pf))
