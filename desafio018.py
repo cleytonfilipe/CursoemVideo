@@ -1,8 +1,10 @@
-print('Desafio 019 - Python - Curso em Video')
-import random
-a1 = input('Qual o nome do primeiro aluno? ')
-a2 = input('Qual o nome do segundo aluno? ')
-a3 = input('Qual o nome do terceiro aluno? ')
-a4 = input('Qual o nome do quarto aluno? ')
-esc = random
-print('O aluno escolhido foi {}!'.format(esc))
+print('Desafio 018 - Python - Curso em Video')
+import math
+print('Vamos descobrir o Seno, Cosseno e Tangente do Ângulo!')
+a = float(input('Qual o ângulo? '))
+seno = math.sin(math.radians(a))
+coss = math.cos(math.radians(a))
+tang = math.tan(math.radians(a))
+print('O ângulo de {:.1f} tem o SENO de {:.2f}.'.format(a, seno))
+print('O ângulo de {:.1f} tem o COSSENO de {:.2f}.'.format(a, coss))
+print('O ângulo de {:.1f} tem o TANGENTE de {:.2f}.'.format(a, tang))
